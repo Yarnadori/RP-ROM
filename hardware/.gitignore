@@ -1,0 +1,9 @@
+*.000
+*.bak
+*.bck
+*-backups/
+_autosave-*
+*.kicad_prl
+*.dsn
+*.ses
+fp-info-cache

@@ -1,0 +1,23 @@
+# KiCad
+*.000
+*.bak
+*.bck
+*-backups/
+_autosave-*
+*.kicad_prl
+*.dsn
+*.ses
+fp-info-cache
+
+# Pico SDK build
+software/build/
+
+# Python tools
+tools/__pycache__/
+tools/*.py[oc]
+tools/.venv/
+tools/*.bin
+tools/*.hex
+tools/dist/
+tools/wheels/
+tools/*.egg-info
