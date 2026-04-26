@@ -4,12 +4,12 @@ M27C256 EPROM エミュレータ。RP2354A (RP2350 QFN-60) を搭載した自作
 
 ## 概要
 
-| 項目 | 内容 |
-| --- | --- |
-| 対象 EPROM | M27C256 互換 (32KB, 15-bit address, 8-bit data) |
-| MCU | RP2354A (RP2350 QFN-60, 360 MHz 動作) |
-| インターフェース | USB-C (CDC Serial) |
-| フラッシュ保持 | 電源断後も ROM データを内蔵フラッシュに保存 |
+| 項目             | 内容                                            |
+| ---------------- | ----------------------------------------------- |
+| 対象 EPROM       | M27C256 互換 (32KB, 15-bit address, 8-bit data) |
+| MCU              | RP2354A (RP2350 QFN-60, 360 MHz 動作)           |
+| インターフェース | USB-C (CDC Serial)                              |
+| フラッシュ保持   | 電源断後も ROM データを内蔵フラッシュに保存     |
 
 ## リポジトリ構成
 
@@ -27,15 +27,15 @@ RP-ROM/
 
 KiCad で設計。主要部品:
 
-| Ref | 部品 | 備考 |
-| --- | --- | --- |
-| IC1 | RP2354A | メイン MCU (QFN-60) |
-| U1 | RT9080-33GJ5 | 3.3V LDO |
-| U2 | CH213K | USB ESD 保護 |
-| J4 | USB-C | USB 2.0 (CDC) |
-| J1, J2 | 1×14 ピンヘッダ | ROM ソケット接続 |
-| J3 | JST SH 3P | 外部電源 (オプション) |
-| Y1 | 12 MHz 水晶 | システムクロック基準 |
+| Ref    | 部品            | 備考                    |
+| ------ | --------------- | ----------------------- |
+| IC1    | RP2354A         | メイン MCU (QFN-60)     |
+| U1     | RT9080-33GJ5    | 3.3V LDO                |
+| U2     | CH213K          | 電源用                  |
+| J4     | USB-C           | USB 2.0 (CDC)           |
+| J1, J2 | 1×14 ピンヘッダ | ROM ソケット接続        |
+| J3     | JST SH 3P       | デバッガー (オプション) |
+| Y1     | 12 MHz 水晶     | システムクロック基準    |
 
 製造ファイルは `hardware/production/` に格納。
 
@@ -44,23 +44,6 @@ KiCad で設計。主要部品:
 ### 必要環境
 
 - [Raspberry Pi Pico SDK](https://github.com/raspberrypi/pico-sdk) v2.2.0
-- CMake 3.13+
-- ARM GCC ツールチェーン 14.2
-
-### ビルド
-
-```bash
-cd software
-mkdir build && cd build
-cmake ..
-make -j
-```
-
-生成物: `build/RP-ROM.uf2`
-
-### 書き込み
-
-BOOTSEL ボタンを押しながら USB 接続 → USB マスストレージとして認識 → `RP-ROM.uf2` をコピー。
 
 ### 動作
 
