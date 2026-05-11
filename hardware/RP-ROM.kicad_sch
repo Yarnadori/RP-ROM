@@ -2853,6 +2853,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Shockley"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Shockley"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Shockley (PNPN) diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Shockley diode PNPN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Shockley_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Shockley_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -4778,172 +4944,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Yamadori_KiCad_Library:CH213K"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CH213K"
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-				(at 0 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CH213K_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -7.366) (xy -0.762 -5.334)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -7.366) (xy -0.762 -6.35) (xy 0.762 -5.334) (xy 0.762 -7.366)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -6.35) (xy -1.27 -6.35) (xy -2.54 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CH213K_1_1"
-				(rectangle
-					(start -5.08 -2.54)
-					(end 5.08 -10.16)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at -7.62 -3.81 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -8.89 0)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -6.35 180)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Yamadori_KiCad_Library:RT9080-33GJ5"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5960,12 +5960,6 @@
 		(uuid "0c564615-0cca-4f39-b353-4d3928f7c954")
 	)
 	(junction
-		(at 68.58 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23a782d1-c3ac-4288-ad28-da7b7c8c8dd0")
-	)
-	(junction
 		(at 36.83 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6062,7 +6056,7 @@
 		(uuid "98aa0376-4af2-4cca-9b4f-8b83b2672079")
 	)
 	(junction
-		(at 30.48 172.72)
+		(at 30.48 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b905bf9-5b6d-4122-b3ff-a7449defad8c")
@@ -6078,6 +6072,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b242233b-dd4f-4ee9-babe-cc0b9f9d7b19")
+	)
+	(junction
+		(at 80.01 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c08993eb-5824-42a2-841d-8bfe7f8f5253")
 	)
 	(junction
 		(at 114.3 67.31)
@@ -6629,6 +6629,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 68.58) (xy 80.01 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57ba2027-651e-495f-a94a-315913fb435a")
+	)
+	(wire
+		(pts
 			(xy 168.91 125.73) (xy 160.02 125.73)
 		)
 		(stroke
@@ -6879,7 +6889,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 68.58) (xy 71.12 68.58)
+			(xy 80.01 68.58) (xy 82.55 68.58)
 		)
 		(stroke
 			(width 0)
@@ -7249,7 +7259,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 172.72) (xy 30.48 172.72)
+			(xy 27.94 170.18) (xy 30.48 170.18)
 		)
 		(stroke
 			(width 0)
@@ -7539,6 +7549,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 68.58) (xy 59.69 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6db5870-204d-4190-a00f-a9e1f39e1ae5")
+	)
+	(wire
+		(pts
 			(xy 205.74 140.97) (xy 212.09 140.97)
 		)
 		(stroke
@@ -7629,23 +7649,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 170.18) (xy 54.61 170.18)
+			(xy 46.99 170.18) (xy 54.61 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e59e3226-a59a-4730-b48a-536bc54a99bc")
-	)
-	(wire
-		(pts
-			(xy 59.69 68.58) (xy 68.58 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e67127bf-d8e8-472e-a3a8-a19ed596930c")
+		(uuid "e63f1a24-4d67-40fd-825d-4e42d268d925")
 	)
 	(wire
 		(pts
@@ -7679,7 +7689,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 172.72) (xy 35.56 172.72)
+			(xy 30.48 170.18) (xy 39.37 170.18)
 		)
 		(stroke
 			(width 0)
@@ -8521,7 +8531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0570f4c6-8ef2-43a8-8aa4-b1fb680b5b07")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR022"
 			(at 152.4 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8581,7 +8591,7 @@
 		(instances
 			(project "RP-ROM"
 				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "#PWR023")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8589,7 +8599,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 68.58 68.58 0)
+		(at 80.01 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8600,7 +8610,7 @@
 		(fields_autoplaced yes)
 		(uuid "05e06576-4005-40d1-8c97-2a69fbd91cd8")
 		(property "Reference" "#FLG03"
-			(at 68.58 66.675 0)
+			(at 80.01 66.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8611,7 +8621,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 68.58 63.5 0)
+			(at 80.01 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8621,7 +8631,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 68.58 0)
+			(at 80.01 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8632,7 +8642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 68.58 0)
+			(at 80.01 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8643,7 +8653,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 68.58 68.58 0)
+			(at 80.01 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8789,7 +8799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b499a18-8600-494e-8165-a5598b607c25")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 128.27 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -8849,7 +8859,7 @@
 		(instances
 			(project "RP-ROM"
 				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -8867,7 +8877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cd36e5b-9fc7-4eb8-ae77-762c98c27a7c")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR021"
 			(at 149.86 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -8927,7 +8937,7 @@
 		(instances
 			(project "RP-ROM"
 				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "#PWR022")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -9085,7 +9095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d815c73-e2dc-40ea-9be8-25edee742620")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 110.49 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -9146,7 +9156,7 @@
 		(instances
 			(project "RP-ROM"
 				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9322,7 +9332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f443e51-216a-42f5-ae28-75dcb47bf04c")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 101.6 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -9383,7 +9393,7 @@
 		(instances
 			(project "RP-ROM"
 				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -9401,7 +9411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11f7cf62-aab9-4b78-bf66-efada544eb95")
-		(property "Reference" "D1"
+		(property "Reference" "D3"
 			(at 108.9025 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9507,7 +9517,7 @@
 		(instances
 			(project "RP-ROM"
 				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "D1")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -9637,7 +9647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16e604a8-5267-4cf5-8e72-c21c0c01c4ae")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR024"
 			(at 156.21 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -9698,86 +9708,7 @@
 		(instances
 			(project "RP-ROM"
 				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 50.8 175.26 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "18abd01e-e020-4866-bf6e-d28264ef33de")
-		(property "Reference" "#PWR03"
-			(at 57.15 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 48.768 172.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ca4124bd-6b08-449a-92f8-3d3c0891d347")
-		)
-		(instances
-			(project "RP-ROM"
-				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "#PWR03")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9785,7 +9716,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 71.12 68.58 270)
+		(at 82.55 68.58 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9796,7 +9727,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b5cafeb-2921-4ec1-bf27-106bf75106f3")
 		(property "Reference" "#PWR06"
-			(at 67.31 68.58 0)
+			(at 78.74 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9807,7 +9738,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 74.93 68.5799 90)
+			(at 86.36 68.5799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9818,7 +9749,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 68.58 0)
+			(at 82.55 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9829,7 +9760,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 68.58 0)
+			(at 82.55 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9840,7 +9771,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 71.12 68.58 0)
+			(at 82.55 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9874,7 +9805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25649253-0a35-48c0-b319-d2d3d4ac889c")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR025"
 			(at 156.21 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -9935,7 +9866,7 @@
 		(instances
 			(project "RP-ROM"
 				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "#PWR026")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -9953,7 +9884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ed3af37-9e61-4e02-8b49-f37f17f70b5f")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR013"
 			(at 114.3 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -10013,7 +9944,7 @@
 		(instances
 			(project "RP-ROM"
 				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "#PWR014")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10031,7 +9962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41078456-4425-4732-a153-4d6a73755e8a")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 87.63 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -10091,7 +10022,7 @@
 		(instances
 			(project "RP-ROM"
 				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -10099,7 +10030,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 27.94 172.72 90)
+		(at 27.94 170.18 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10110,7 +10041,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a419edc-b423-450d-865e-38fc3a6441ac")
 		(property "Reference" "#PWR01"
-			(at 31.75 172.72 0)
+			(at 31.75 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10121,7 +10052,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 24.13 172.7199 90)
+			(at 24.13 170.1799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10132,7 +10063,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 172.72 0)
+			(at 27.94 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10143,7 +10074,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 172.72 0)
+			(at 27.94 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10154,7 +10085,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 27.94 172.72 0)
+			(at 27.94 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10414,7 +10345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "610a416d-cb96-468b-9638-f9c8fb6c4103")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR05"
 			(at 80.01 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -10475,7 +10406,7 @@
 		(instances
 			(project "RP-ROM"
 				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "#PWR07")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -10819,6 +10750,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Shockley")
+		(at 68.58 68.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "707bc660-4e8f-4391-834f-7f36c5b0321e")
+		(property "Reference" "D2"
+			(at 68.58 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RB521S-30"
+			(at 68.58 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 68.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Shockley (PNPN) diode"
+			(at 68.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C8523"
+			(at 68.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67a8142a-41b9-4ad1-98bd-af48cea28b3d")
+		)
+		(pin "2"
+			(uuid "4f6d69e4-a77e-443a-a85f-e1b679ebc409")
+		)
+		(instances
+			(project "RP-ROM"
+				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Yamadori_KiCad_Library:RT9080-33GJ5")
 		(at 74.93 165.1 0)
 		(unit 1)
@@ -10830,7 +10852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "709b0f32-a147-4f47-a7f5-3f5278725e81")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 74.93 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10934,7 +10956,7 @@
 		(instances
 			(project "RP-ROM"
 				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -10952,7 +10974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77d652ca-a7d4-4c67-9c28-a90c78ce1cbb")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR010"
 			(at 92.71 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -11013,7 +11035,7 @@
 		(instances
 			(project "RP-ROM"
 				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "#PWR011")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -11143,7 +11165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cd00c2b-0bed-4ab9-adf9-3dc0c2c8c280")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR026"
 			(at 162.56 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -11203,7 +11225,7 @@
 		(instances
 			(project "RP-ROM"
 				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "#PWR027")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -11221,7 +11243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "832ddbd0-ed27-4fb9-bc7b-671f7b51cd8a")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR023"
 			(at 156.21 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -11282,7 +11304,7 @@
 		(instances
 			(project "RP-ROM"
 				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "#PWR024")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -11290,7 +11312,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 30.48 172.72 0)
+		(at 30.48 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11301,7 +11323,7 @@
 		(fields_autoplaced yes)
 		(uuid "847677f4-0913-4aba-ba24-5242536615ad")
 		(property "Reference" "#FLG01"
-			(at 30.48 170.815 0)
+			(at 30.48 168.275 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11312,7 +11334,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 30.48 167.64 0)
+			(at 30.48 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11322,7 +11344,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 172.72 0)
+			(at 30.48 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11333,7 +11355,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 172.72 0)
+			(at 30.48 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11344,7 +11366,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 30.48 172.72 0)
+			(at 30.48 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11377,7 +11399,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b06b883-d120-4d3f-84a4-4dce279ced5c")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 58.42 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -11438,7 +11460,98 @@
 		(instances
 			(project "RP-ROM"
 				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "#PWR05")
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Shockley")
+		(at 43.18 170.18 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8eb06104-0839-4adf-a7aa-34e48e502dfb")
+		(property "Reference" "D1"
+			(at 43.18 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RB521S-30"
+			(at 43.18 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 43.18 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Shockley (PNPN) diode"
+			(at 43.18 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C8523"
+			(at 43.18 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ef57eb5-f053-4d8a-adf5-cfbec5c59de2")
+		)
+		(pin "2"
+			(uuid "d13b9e4f-b912-4b0c-a93d-45105315735d")
+		)
+		(instances
+			(project "RP-ROM"
+				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -11765,7 +11878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d986a58-384f-4bfe-b682-69061da96289")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR027"
 			(at 205.74 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -11826,7 +11939,7 @@
 		(instances
 			(project "RP-ROM"
 				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "#PWR028")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11844,7 +11957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9efcf1c5-2407-474b-be9c-ad054f79a981")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 270.51 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -11904,7 +12017,7 @@
 		(instances
 			(project "RP-ROM"
 				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "#PWR030")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -12037,7 +12150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a779abce-617e-4176-8a5f-4a604213fe35")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 125.73 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -12097,7 +12210,7 @@
 		(instances
 			(project "RP-ROM"
 				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12115,7 +12228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7a60ef7-f25f-4b93-a7ad-e8d8abd65367")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR028"
 			(at 241.3 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -12176,7 +12289,7 @@
 		(instances
 			(project "RP-ROM"
 				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "#PWR029")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -12915,7 +13028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7538158-bd7e-4db0-a734-95b2dfce7a07")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 110.49 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -12976,7 +13089,7 @@
 		(instances
 			(project "RP-ROM"
 				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -13633,7 +13746,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c70f6e30-69a0-4aee-9be1-1256889600d8")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR020"
 			(at 144.78 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -13693,7 +13806,7 @@
 		(instances
 			(project "RP-ROM"
 				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "#PWR021")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -14129,7 +14242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d19e1fb5-b2b9-47b2-8c58-ac4e64142069")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR018"
 			(at 132.08 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -14189,7 +14302,7 @@
 		(instances
 			(project "RP-ROM"
 				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -14319,7 +14432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d410569b-26ed-449e-a57e-3b1e6fc5c9ea")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR014"
 			(at 124.46 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -14379,7 +14492,7 @@
 		(instances
 			(project "RP-ROM"
 				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "#PWR015")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -14397,7 +14510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db6ea515-947b-47f2-9684-a5ecbfafefc1")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 134.62 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -14457,7 +14570,7 @@
 		(instances
 			(project "RP-ROM"
 				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -14475,7 +14588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e089ea42-6b20-4897-8ab4-a9eb4b273d35")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 87.63 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -14535,7 +14648,7 @@
 		(instances
 			(project "RP-ROM"
 				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -14882,122 +14995,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Yamadori_KiCad_Library:CH213K")
-		(at 43.18 179.07 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb998cab-4c4f-47a0-9fbc-4900aa77af8a")
-		(property "Reference" "U1"
-			(at 43.18 163.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CH213K"
-			(at 43.18 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 43.18 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 43.18 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 43.18 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C5456874"
-			(at 43.18 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "09e189b1-e040-406a-97b9-f6646392b260")
-		)
-		(pin "1"
-			(uuid "c2103402-4e87-4c60-9e3c-3e86ebf5e903")
-		)
-		(pin "3"
-			(uuid "0bca9840-a04f-401b-9752-f558f22ca8a9")
-		)
-		(instances
-			(project "RP-ROM"
-				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V1")
 		(at 125.73 43.18 0)
 		(unit 1)
@@ -15009,7 +15006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f16430a3-8d6a-421c-b1da-4b12a2fd43af")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR015"
 			(at 125.73 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -15069,7 +15066,7 @@
 		(instances
 			(project "RP-ROM"
 				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "#PWR016")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -15226,7 +15223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb707cf4-1069-4cad-afaa-e1ba1b8dd985")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 54.61 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -15286,7 +15283,7 @@
 		(instances
 			(project "RP-ROM"
 				(path "/9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)

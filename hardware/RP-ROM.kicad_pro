@@ -80,6 +80,18 @@
         [
           "text_height|70612000|113603636|7469a859-fda6-486f-9b12-2c0b4ee9705e|00000000-0000-0000-0000-000000000000",
           ""
+        ],
+        [
+          "unconnected_items|73432337|91505636|F.Cu|4|11b558b4-c2ce-4c3a-a5b6-67496dfac537|ddcca018-2d04-446e-a82b-f4363d48b6b0",
+          ""
+        ],
+        [
+          "unconnected_items|78600000|92133636|F.Cu|4|ee41f5b0-5ce0-4647-b2f3-303968f2f81c|11b558b4-c2ce-4c3a-a5b6-67496dfac537",
+          ""
+        ],
+        [
+          "unconnected_items|78600000|92133636|F.Cu|4|ee41f5b0-5ce0-4647-b2f3-303968f2f81c|68779c49-49c1-4ca5-99e8-5564e371110a",
+          ""
         ]
       ],
       "meta": {
@@ -278,7 +290,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_issues|1066800|977900|b25316ec-645e-4740-b01d-6f89e8220f6d|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|2362200|1435100|f9d1f516-0f26-4c47-b123-3fcff8469330|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|444500|838200|0ef86b95-965e-4fc2-85ef-d3ba49996908|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -757,7 +782,7 @@
         "uuid": "9a55a2d4-ce66-4aa5-b5eb-2e700c8edad7"
       }
     ],
-    "used_designators": "",
+    "used_designators": "L1,#PWR1-29,D1-3,#FLG1-4,R1-9,J1-4,IC1,C1-14,SW1,U1,Y1",
     "variants": []
   },
   "sheets": [
